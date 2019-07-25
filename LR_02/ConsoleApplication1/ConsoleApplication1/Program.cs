@@ -90,6 +90,9 @@ namespace ConsoleApplication1
                         if (x <= 1.0)
                         {
                             Console.WriteLine("Формула не справедлива для заданного х");
+                            Console.WriteLine("Press Enter...");
+                            Console.ReadLine();
+                            Console.Clear(); 
                             break;
                         }
                         Console.WriteLine("Введите точность");
@@ -97,6 +100,9 @@ namespace ConsoleApplication1
                         if (q <= 0)
                         {
                             Console.WriteLine("Формула не справедлива для заданной точности");
+                            Console.WriteLine("Press Enter...");
+                            Console.ReadLine();
+                            Console.Clear(); 
                             break;
                         }
                         int n = 0;
@@ -116,7 +122,6 @@ namespace ConsoleApplication1
                         Console.Clear(); 
                         break;
                     case "0": 
-                        buf = "0";
                         break;
                     default:
                         Console.WriteLine("Некорректные данные");
